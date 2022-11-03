@@ -1,0 +1,20 @@
+button {
+	padding:6px; 
+	cursor:pointer;
+}
+input {
+	padding:5px; 
+	margin: 3px;
+	border:2px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+	outline: 0;
+}
+input:valid {
+	background-color: rgb(155, 234, 155);
+	border-color: #24d600;
+}
+input:invalid {
+	background-color: rgb(252, 195, 204);
+	border-color: #DD2C00;
+}
